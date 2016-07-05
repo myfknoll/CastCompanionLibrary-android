@@ -42,7 +42,7 @@ android {
     publishNonDefault true
 
     defaultConfig {
-        minSdkVersion 10
+        minSdkVersion 11
         targetSdkVersion 23
     }
 

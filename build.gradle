@@ -37,8 +37,8 @@ ext {
 }
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion "25.0.2"
+    compileSdkVersion 27
+    buildToolsVersion "27.0.0"
     publishNonDefault true
 
     defaultConfig {
@@ -56,12 +56,14 @@ android {
 
     buildTypes {
         debug {
+            /*
             libraryVariants.all { variant ->
                 variant.outputs.each { output ->
                     output.outputFile = new File(output.outputFile.parent, output.outputFile.name.
                             replace(".aar", "-${versionName}.aar"))
                 }
             }
+            */
         }
 
     }
